@@ -1,0 +1,48 @@
+name: TheRiseAndFall
+version: '${version}'
+author: Growling_Grizzly
+main: com.grizzly.TheRiseAndFall.Main
+api-version: 1.18
+commands:
+  claim:
+    description: Used to claim land.
+    usage: /<command> <pos1/pos2/confirm/cancel>
+  team:
+    description: Manage teams.
+    usage: /<command> <info/invite>
+  playerinfo:
+    description: Get information about a player.
+    usage: /<command> <player>
+  reloadfiles:
+    description: Used to reload plugin files.
+    usage: /<command> <config/claims>
+  getiteminfo:
+    description: Get info about held item.
+    usage: /<command>
+  commissions:
+    description: Open the commission menu.
+    usage: /<command> <reset, replace> <player/num> <player (if applicable)> <id (if applicable)>
+  trade:
+    description: Used to trade with other players.
+    usage: /<command> <player>
+  help:
+    description: Show information about how to do things.
+    usage: /<command> <claims/teams/commissions/trades/altars>
+  #altar:
+  #  description: Used to make altars.
+  #  usage: /<command> <materials/confirm/cancel>
+  children:
+    description: Used for children management.
+    usage: /<command>
+  games:
+    description: Used to play games.
+    usage: /<command>
+  playsong:
+    description: Used to test the custom songs
+    usage: /<command> <song> <player>
+  setitemname:
+    description: Used to change item names.
+    usage: /<command> <name>
+  admin:
+    description: Admin command.
+    usage: /<command>

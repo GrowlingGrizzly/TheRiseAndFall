@@ -1,0 +1,5 @@
+# Stores all locations of claims made by players / server.
+# Each claim by a player is stored under their UUID.
+# Claims with the "ancient" tag were claims disowned after full death, and were kept as indestructible builds on the server.
+
+

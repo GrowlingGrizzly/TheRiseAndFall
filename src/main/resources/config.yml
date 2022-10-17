@@ -1,0 +1,20 @@
+# Main Server Configuration
+# If editing while the server is online, enter "/reloadfiles config" after saving.
+
+Webhooks:
+  Enabled: false
+  URL: null
+  IP-URL: null
+Discord-Integration:
+  Enabled: false
+  Bot-Token: null
+  Channel-Name: null
+Trade:
+  Range: 20
+Defaults:
+  Land: 10000
+  Lives: 5
+Lives:
+  Enabled: false
+Shops:
+  Enabled: false

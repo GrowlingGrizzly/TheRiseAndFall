@@ -1,0 +1,79 @@
+# Commissions for the player to complete can be added / removed / edited here.
+# All current commissions that players have will not update when this is edited,
+# they will only come into effect after the player has completed their current commission.
+
+# Format of a Commission
+#
+# Commission ID:
+#   Name: Commission Name
+#   Item: Item (Use /getiteminfo in-game to see the name of the item, must be in all caps)
+#   Amount: Amount
+#   Reward:
+#     Type: ITEM or CLAIM_LAND (all caps)
+#     (if item) Item: Item (Use /getiteminfo in-game to see the name of the item, must be in all caps)
+#     Amount: Amount
+#
+#
+# Example:
+#
+# stone:
+#   Name: Stone Stalker
+#   Item: STONE
+#   Amount: 100
+#   Reward:
+#     Type: ITEM
+#     Item: DIAMOND
+#     Amount: 2
+#
+# Note: Description of the Commission will be "Submit <amount> <item>. Reward: <amount> <item/Claim Land>"
+# EX: Submit 100 Stone. Reward: 2 Diamond
+# OR: Submit 100 Stone. Reward: 50 blocks of Claim Land
+
+Commissions:
+  stone:
+    Name: Stone Stalker
+    Item: STONE
+    Amount: 100
+    Reward:
+      Type: ITEM
+      Item: DIAMOND
+      Amount: 2
+  dirt:
+    Name: Dirt Destroyer
+    Item: DIRT
+    Amount: 100
+    Reward:
+      Type: ITEM
+      Item: DIAMOND
+      Amount: 1
+  sand:
+    Name: Sand Salvager
+    Item: SAND
+    Amount: 100
+    Reward:
+      Type: ITEM
+      Item: DIAMOND
+      Amount: 2
+  iron:
+    Name: Iron Forger
+    Item: IRON_INGOT
+    Amount: 20
+    Reward:
+      Type: ITEM
+      Item: DIAMOND
+      Amount: 3
+  gold:
+    Name: Pirate's Booty
+    Item: GOLD_INGOT
+    Amount: 16
+    Reward:
+      Type: ITEM
+      Item: DIAMOND
+      Amount: 3
+  diamond:
+    Name: The Diamond Ring
+    Item: DIAMOND
+    Amount: 4
+    Reward:
+      Type: CLAIM_LAND
+      Amount: 50
